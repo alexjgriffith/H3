@@ -1,0 +1,7 @@
+#+AUTHOR: Alexander Griffith
+#+TITLE: Hobits Hobbits Hobbits
+Hobits Hobbits Hobbits (H3), is a model of hobbit interaction.
+
+** Multiple Agent Simulation (MAS)
+
+** Baggins Engine (BE)
