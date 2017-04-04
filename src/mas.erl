@@ -1,15 +1,13 @@
 -module(mas).
 
 -export([start/2]).
-
--export([tick/2,get/2,req/3.]).
+-export([tick/2,get/2,req/3]).
 -export([init/2]).
 
 start(Mod,State)->
     spawn(mas,init,[Mod,State]).
 
 init(Mod,State)->
-    register(Mod,self()),
     {Agent,SP} = Mod:init(State),
     loop(Agent,SP,Mod).
 
